@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "psp2")(type "KiCad")(uri "${KIPRJMOD}/libraries/psp2.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcpcb.kicad_sym")(options "")(descr ""))
+)
