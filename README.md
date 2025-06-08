@@ -1,5 +1,12 @@
-# PSPTVOut
-Foot prints and breakout board for the PSP 2/3k TVOut socket.
+<p align="center">
+  <img width="250" src="./images/logo.png">
+</p>
+<h1 align="center"> AV Breakout </h1>
+<p align="center">
+  <b >An AV-Out Breakout library for the PSP. Providing Kicad symbols and footprints to interface with the PSP 2/3K Av out socket (also known as the TVOut socket)</b>
+</p>
+
+<br>
 
 ---
 
