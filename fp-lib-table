@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "psp")(type "KiCad")(uri "${KIPRJMOD}/libraries/psp.pretty")(options "")(descr ""))
-  (lib (name "jlcpcb")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcpcb.pretty")(options "")(descr ""))
-)

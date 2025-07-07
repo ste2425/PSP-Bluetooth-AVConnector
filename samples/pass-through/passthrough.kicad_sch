@@ -952,7 +952,7 @@
 				)
 			)
 		)
-		(symbol "psp2:tvout cable"
+		(symbol "psp:tvout cable"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1231,7 +1231,7 @@
 				)
 			)
 		)
-		(symbol "psp2:tvoutConnector"
+		(symbol "psp:tvoutConnector"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2480,6 +2480,17 @@
 		)
 		(uuid "85cd7f8d-8bb7-499a-85e8-bd8b8d5c8aff")
 	)
+	(text "CHANGE LOG\n5/6/25 - (TVConnector)Changed footprint to version 2. \nMakes it wider and changes pins width to hopefully fit better."
+		(exclude_from_sim no)
+		(at 21.082 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be0dcbf6-2290-422f-8965-e9dc6d6afaea")
+	)
 	(label "LUMA_Y"
 		(at 219.71 81.28 0)
 		(fields_autoplaced yes)
@@ -2501,6 +2512,17 @@
 			(justify left bottom)
 		)
 		(uuid "0323575f-2e5a-4f59-84a8-390441b39b09")
+	)
+	(label "UART_GND"
+		(at 210.82 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0442b59d-48c1-4f5e-8f83-7e9647f60803")
 	)
 	(label "PSP_BLUE_LUME_PB"
 		(at 204.47 30.48 0)
@@ -2601,8 +2623,8 @@
 		)
 		(uuid "1c1430b0-bc3c-4708-b8cd-dcc77383079c")
 	)
-	(label "GND"
-		(at 39.37 104.14 0)
+	(label "UART_GND"
+		(at 153.67 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2610,7 +2632,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1dec34d1-8fc8-42f8-bf42-80a146ba3680")
+		(uuid "1e3a4f2a-f839-470a-b9bf-1633c0c09be2")
 	)
 	(label "RED_LUMA_PR"
 		(at 39.37 96.52 0)
@@ -2622,17 +2644,6 @@
 			(justify left bottom)
 		)
 		(uuid "1edd902d-9c1b-459e-8329-4573f268c0a8")
-	)
-	(label "GND"
-		(at 210.82 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21a4f3cb-c89f-4002-80ba-1ba0dd34fd01")
 	)
 	(label "PSPMICIN"
 		(at 210.82 35.56 0)
@@ -2832,7 +2843,18 @@
 		)
 		(uuid "6b99a937-5be2-4b6a-b09d-cd5ebc5f5d13")
 	)
-	(label "GND"
+	(label "UART_GND"
+		(at 219.71 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bd0df67-01e5-47d3-957b-8b9a84bcb8a0")
+	)
+	(label "UART_GND"
 		(at 30.48 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2886,17 +2908,6 @@
 			(justify left bottom)
 		)
 		(uuid "7b5f8d35-56c0-489c-ab97-3f952931ff1f")
-	)
-	(label "GND"
-		(at 153.67 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83a79265-6453-4ddb-8fdb-ac788da4666f")
 	)
 	(label "PSP_WAKE"
 		(at 219.71 96.52 0)
@@ -2974,6 +2985,17 @@
 			(justify left bottom)
 		)
 		(uuid "a415904a-50bd-4702-b011-b54d3286d313")
+	)
+	(label "UART_GND"
+		(at 39.37 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4923e5e-29ef-45fa-8731-3a6404857009")
 	)
 	(label "audio4"
 		(at 219.71 71.12 0)
@@ -3151,17 +3173,6 @@
 		)
 		(uuid "dc05543f-421e-4cea-bd56-cdb99e0fa986")
 	)
-	(label "GND"
-		(at 219.71 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7cdac08-915b-41c2-95e3-35fd200b1d82")
-	)
 	(label "OUT_PSPTX"
 		(at 260.35 149.86 0)
 		(fields_autoplaced yes)
@@ -3229,7 +3240,7 @@
 		(uuid "fdd6710e-49fe-4936-a97a-73fdf6646dca")
 	)
 	(symbol
-		(lib_id "psp2:tvoutConnector")
+		(lib_id "psp:tvoutConnector")
 		(at 257.81 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3257,7 +3268,7 @@
 			)
 		)
 		(property "Footprint" "psp:TVOut Connector"
-			(at 257.81 83.82 0)
+			(at 267.208 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "psp2:tvout cable")
+		(lib_id "psp:tvout cable")
 		(at 73.66 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
