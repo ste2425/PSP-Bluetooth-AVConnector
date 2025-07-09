@@ -80,6 +80,8 @@ This sample requires parts assembly so conains extra files needed for them.
 
 This is a simple breakout of every pin in the AV port on the PSP. It has no other parts so will require no assembly. Each pin is described.
 
+![avllc](./images/tvout.PNG)
+
 ## AV-Connector-Breakout-LLC (NOT Tested)
 
 This is the same as `AV-Connector-Breakout` except it includes a Logic Level Converter for the serial lines. This will require parts assembly.
@@ -89,9 +91,6 @@ This is the same as `AV-Connector-Breakout` except it includes a Logic Level Con
 # Damage to the PSP
 
 You should bevel, slightly curve, all the edges of the `TV out connector` that plugs into the PSP. So the edges are not all perfect 90deg angles. Otherwise it could damage the contacts. This will need to be manually done.
-
-
-![avllc](./images/tvout.PNG)
 
 # Gotchas
 
