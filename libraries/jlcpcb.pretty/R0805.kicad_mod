@@ -1,28 +1,172 @@
-(module "R0805" (layer F.Cu) (tedit 68152758)
-  (descr "R0805 footprint")
-  (tags "R0805 footprint C17414")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.917094) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value R0805 (at 0 2.917094) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center -1 0.637541) (end -0.970028 0.637541) (layer F.SilkS) (width 0.059995))
-  (fp_line (start 0.4762 0.917094) (end 1.761138 0.917094) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 1.761138 0.917094) (end 1.761138 -0.917094) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 1.761138 -0.917094) (end 0.4762 -0.917094) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.4762 0.917094) (end -1.761138 0.917094) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.761138 0.917094) (end -1.761138 -0.917094) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.761138 -0.917094) (end -0.4762 -0.917094) (layer F.SilkS) (width 0.1524))
-  (pad 2 smd rect (at 1 0) (size 1.132537 1.377013) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -1 0) (size 1.132537 1.377013) (layers F.Cu F.Mask F.Paste))
-  (fp_text user REF** (at 0 4.917094) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model D:\code\psptvout\tools/../libraries/jlcpcb.pretty/packages3d/R0805.step
-    (at (xyz -0.05563 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "R0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "R0805 footprint")
+	(tags "R0805 footprint C17414")
+	(property "Reference" "REF**"
+		(at 0 -2.917094 0)
+		(layer "F.SilkS")
+		(uuid "b197fef2-c1d5-48ab-8784-3b7249fdd444")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R0805"
+		(at 0 2.917094 0)
+		(layer "F.Fab")
+		(uuid "2b08a4e9-795e-4e00-9e4b-0bed99f49039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d3e67c2-6878-4fb1-977e-48eeb82e20c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c946127-4f50-4883-aef6-e972f03794e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb0c02c2-a82f-4ff6-99f3-a64bca478018")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.761138 -0.917094)
+		(end -0.4762 -0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6d04d0a-e960-4d4c-afea-e29b342b9310")
+	)
+	(fp_line
+		(start -1.761138 0.917094)
+		(end -1.761138 -0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5fce293-ff49-4614-9c78-0c8d50f2e8ec")
+	)
+	(fp_line
+		(start -0.4762 0.917094)
+		(end -1.761138 0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec1ee6aa-8585-480f-ad26-94d57d2894cf")
+	)
+	(fp_line
+		(start 0.4762 0.917094)
+		(end 1.761138 0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f125b8b4-6b39-4873-8e7d-745d5fbda212")
+	)
+	(fp_line
+		(start 1.761138 -0.917094)
+		(end 0.4762 -0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59d2a6da-f2a1-4c54-97aa-7cc89c257cb3")
+	)
+	(fp_line
+		(start 1.761138 0.917094)
+		(end 1.761138 -0.917094)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e3fcaa4-e88d-42cc-8d4e-26753b3b89ba")
+	)
+	(fp_circle
+		(center -1 0.637541)
+		(end -0.970028 0.637541)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b4280e1f-5e0c-4b55-8144-c67b08cab917")
+	)
+	(fp_text user "REF**"
+		(at 0 4.917094 0)
+		(layer "F.Fab")
+		(uuid "cf9bebb6-a4bd-491e-a448-46e515e3378f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1.132537 1.377013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b158c5b-ffbe-4265-8346-99a0af88ce07")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1.132537 1.377013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c19f5d09-56ad-4052-b4fe-f7395a18b543")
+	)
+	(model "${ROOT}/libraries/jlcpcb.pretty/packages3d/R0805.step"
+		(offset
+			(xyz 0.086998 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
