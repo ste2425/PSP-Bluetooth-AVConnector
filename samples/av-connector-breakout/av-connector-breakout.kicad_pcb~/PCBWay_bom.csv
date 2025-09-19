@@ -1,0 +1,3 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"TP1, TP10, TP11, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9",11,TestPoint,TestPoint_Pad_1.0x1.0mm,,,,tht,test point
+U1,1,~,TVOut Cable,,,,smt,

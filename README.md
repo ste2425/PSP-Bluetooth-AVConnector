@@ -1,44 +1,22 @@
-<p align="center">
-  <img width="250" src="./images/logo.png">
-</p>
-<h1 align="center"> AV Breakout </h1>
-<p align="center">
-  <b >An AV-Out Breakout library for the PSP. Providing Kicad symbols and footprints to interface with the PSP 2/3K Av out socket (also known as the TVOut socket)</b>
-</p>
+# PSP Bluetooth *AV Connector*
 
----
+This forms part of my PSP Bluetooth project. Here you will find hardware files to build your own boards that can interface with the PSP 2000 and 3000 models AVPort.
 
-**TOC**
-* [How to install](#how-to-install-the-library) 
+There are also some sample boards i have designed for reference.
+
+Check out the latest [Release](https://github.com/ste2425/AVBreakout/releases) for the libray files and sample files.
+
+* [Designing your own boards](#designing-your-own-boards) 
 * [Samples](#samples)
-  * [Pass-Through (Tested)](#pass-through-tested)
-  * [AV-Connector-Breakout (NOT Tested)](#av-connector-breakout-not-tested)
-  * [AV-Connector-Breakout-LLC (NOT Tested)](#av-connector-breakout-llc-not-tested)
+  * [AV-Connector-Breakout](#av-connector-breakout)
+  * [Dev-Board](#dev-board)
 * [Damage to the PSP](#damage-to-the-psp)
 * [Gotchas](#gotchas)
 * [Connector pinout](#connector-pinout)
 
----
+# Designing your own boards
 
-⚠ **This has not been *fully* tested yet. When my prototypes arrive i will update this repo** ⚠
-
----
-
-This project contains two components that can be used within your own PCB designs for interfacing with the PSP. All components have full pinouts and pin descriptions.
-
-## TVOut Cable
-
-This is the AV Connector found on a AV cable which plugs into the PSP.
-
-## TVOut Connector
-
-This is the socket which the AV Cable plugs into. It is soldered to the PSP motherboard.
-
----
-
-Whilst the intent is for other people to use these components there are some sample projects which can be used directly or as reference.
-
-# How to install the library
+If you wish to design your own boards to interface with the PSP AVConnector you can download the KiCad symbols and footprints to include in your project.
 
 Download the latest release. Inside the `library` folder you will find a `psp.pretty` folder and a `psp.kicad_sym` file. These are the `footprints` and `symbols` respectively.
 
@@ -64,29 +42,24 @@ To install;
 
 There are a number of samples in the project. If you wish to load them in Kicad clone the repository and open the project.
 
-If you just wish to have them produced, download the latest release and you will find them inside the `samples` folder. I have mine produced by `JLCPcb` so my BOM files are built for them.
+If you just wish to have them produced, download the latest release and you will find them inside the `samples` folder. I have mine produced by `PCBWay` so my BOM files are built for them.
 
-## Pass-Through (Tested)
+## AV-Connector-Breakout
 
-This sample is a complete example. It has a AC Cable to connect to the PSP, a AV Connector to use an original AV cable. All the video signals are forwarded. It also has a Logic Level converter for the serial lines.
+This is a simple breakout of every pin in the AV port on the PSP. It has no other parts so will require no assembly. 
 
-This sample will allow you access to the PSP's serial port and use a AV cable at the same time.
+This is a small PCB intended for you to solder a cable to.
 
-This sample requires parts assembly so conains extra files needed for them.
+## Dev-Board
 
-![proto](./images/prototype.jpg)
+This is a all in one development board. It has the footprints to fit an ESP32 development module.
 
-## AV-Connector-Breakout (NOT Tested)
+It also has the required logic level translators connected to pins <TODO ADD PINS>.
 
-This is a simple breakout of every pin in the AV port on the PSP. It has no other parts so will require no assembly. Each pin is described.
+It has the TVOut connector footprint and all pins connected so you can use a original TVOut cable if you wish.
 
-![avllc](./images/tvout.PNG)
+It is what i have been using to build my homebrew.
 
-## AV-Connector-Breakout-LLC (NOT Tested)
-
-This is the same as `AV-Connector-Breakout` except it includes a Logic Level Converter for the serial lines. This will require parts assembly.
-
-![avllc](./images/tvoutllc.PNG)
 
 # Damage to the PSP
 
