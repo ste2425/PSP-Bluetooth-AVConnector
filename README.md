@@ -15,6 +15,7 @@ The work ive done is just a thin layer ontop of work many other people have done
 * X41 - Shared with me an initial working SIO hello world app back when i could barely compile PSP code. This was invaluable in helping me get the hardware working right at the start of the project.
 * PSP Homebrew Discord - Full of incredibly smart and helpful people too many to list individually. Without their help I'd never have managed to complete any of this.
 
+---
 
 * [Designing your own boards](#designing-your-own-boards) 
 * [Samples](#samples)
