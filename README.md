@@ -6,6 +6,16 @@ There are also some sample boards i have designed for reference.
 
 Check out the latest [Release](https://github.com/ste2425/AVBreakout/releases) for the libray files and sample files.
 
+## Acknowledgements
+
+The work ive done is just a thin layer ontop of work many other people have done, Iv'e also had lots of help from others.
+
+* TokyoDrift - Originally created work that uses the SIO port to allow external controllers back around 2010. Since uploaded to Github
+* OPDitto project - A project that uses the SIO port to allow for a real second analog stick. Its SIO implementation has been extremly helpful to me. Repo Here
+* X41 - Shared with me an initial working SIO hello world app back when i could barely compile PSP code. This was invaluable in helping me get the hardware working right at the start of the project.
+* PSP Homebrew Discord - Full of incredibly smart and helpful people too many to list individually. Without their help I'd never have managed to complete any of this.
+
+
 * [Designing your own boards](#designing-your-own-boards) 
 * [Samples](#samples)
   * [AV-Connector-Breakout](#av-connector-breakout)
