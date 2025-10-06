@@ -2,7 +2,7 @@
 
 My preferred method for having boards manfuactured is via [PCBWay](https://pcbway.com).
 
-The first job is to download a [Release]().
+The first job is to download a [Release](https://github.com/ste2425/PSP-Bluetooth-AVConnector/releases).
 
 Once downloaded pick a sample, there are currently two;
 
