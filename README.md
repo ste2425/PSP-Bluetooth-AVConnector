@@ -6,6 +6,10 @@ There are also some sample boards i have designed for reference.
 
 Check out the latest [Release](https://github.com/ste2425/AVBreakout/releases) for the libray files and sample files.
 
+## The PSP Bluetooth Project
+
+This is a part of the PSP Bluetooth project, to find information on the other components that make up this project please look here: https://github.com/psp-bluetooth
+
 ## Acknowledgements
 
 The work ive done is just a thin layer ontop of work many other people have done, Iv'e also had lots of help from others.
