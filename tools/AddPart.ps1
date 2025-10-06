@@ -6,7 +6,7 @@ echo $path
 
 while ($true)
 {
-    $partNumbers = Read-Host -Prompt 'Input JLCPCB part numbers'
+    $partNumbers = Read-Host -Prompt 'Input part numbers'
 
     JLC2KiCadLib $partNumbers -symbol_lib_dir . -dir $path -symbol_lib jlcpcb -footprint_lib jlcpcb.pretty
 

@@ -6,6 +6,10 @@ There are also some sample boards i have designed for reference.
 
 Check out the latest [Release](https://github.com/ste2425/AVBreakout/releases) for the libray files and sample files.
 
+## Having boards made
+
+Check out the guide [Here](./documentation/manufacturing.md) for information on how to have the samples made with PCBWay.
+
 ## The PSP Bluetooth Project
 
 This is a part of the PSP Bluetooth project, to find information on the other components that make up this project please look here: https://github.com/psp-bluetooth
